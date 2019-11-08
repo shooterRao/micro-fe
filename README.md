@@ -2,4 +2,4 @@
 
 ### single-spa 方案
 
-[see that](https://link)
+[see that](https://github.com/shooterRao/micro-fe/blob/master/single-spa/README.md)
