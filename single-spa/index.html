@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/lib/iview/dist/styles/iview.css">
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #app {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* div[id^=single-spa-applicatio] {
+      width: 100%;
+      height: 100%;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <script src="/lib/systemjs/dist/system.min.js"></script>
+  <script src="/lib/systemjs/dist/extras/amd.min.js"></script>
+  <script src="/lib/systemjs/dist/extras/named-exports.min.js"></script>
+  <script src="/lib/systemjs/dist/extras/use-default.min.js"></script>
+
+  <!-- 公共库 -->
+  <script type="systemjs-importmap">
+      {
+        "imports": {
+          "main-app": "http://localhost:9001/app.js",
+          "vue-app": "http://localhost:9002/app.js",
+          "vue": "/lib/vue/vue.js",
+          "vue-router": "/lib/vue/vue-router.js",
+          "vuex": "/lib/vue/vuex.js",
+          "iview": "/lib/iview/dist/iview.min.js",
+          "axios": "/lib/axios/index.js",
+          "micro-store": "/lib/micro-store.js"
+        }
+      }
+  </script>
+
+</body>
+
+</html>

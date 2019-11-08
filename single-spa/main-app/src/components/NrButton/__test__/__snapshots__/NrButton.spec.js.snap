@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NrButton 正确渲染组件标签 1`] = `
+<button type="button" class="nr-button nr-button-1 nr-button-default">
+  <!----> follow</button>
+`;

@@ -1,0 +1,10 @@
+{
+  "name": "single-spa-demo",
+  "version": "3.2.31 (2019-10-09 21:44)",
+  "development": {
+    "api": "http://localhost:5000/"
+  },
+  "production": {
+    "api": "http://localhost:5000/"
+  }
+}

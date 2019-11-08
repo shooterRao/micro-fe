@@ -1,0 +1,25 @@
+{
+  "name": "micro-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "http://elb-791125809.cn-northwest-1.elb.amazonaws.com.cn:5335/xdata/xdata-FE/micro-fe.git",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server --mode=development --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.2.1",
+    "iview": "3.5.1",
+    "regenerator-runtime": "^0.13.3",
+    "single-spa": "^4.4.1"
+  }
+}
